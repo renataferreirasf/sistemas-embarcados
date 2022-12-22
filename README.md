@@ -9,7 +9,7 @@
 <br>
 <br>
 <p>Maria Luíza Teixeira Nascimento</p>
-<p>Rayane</p>
+<p>Rayanne Kelly Marcelino Barros Elias</p>
 <p>Renata da Silva Ferreira</p>
 <br>
 <br>
@@ -19,7 +19,7 @@
 <br>
 <br>
 <br>
-<p><b>DESENVOLVIMENTO DE SISTEMA DE MONITORAÇÃO DE TERRÁRIO </b></p>
+<p><b>USO DA ESP32 PARA A MEDIÇÃO DE TEMPERATURA E UMIDADE DE UM TERRÁRIO PARA JABUTI PIRANGA </b></p>
 <br>
 <br>
 <br>
