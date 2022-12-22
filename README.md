@@ -10,7 +10,7 @@
 <br>
 <p>Maria Luíza Teixeira Nascimento</p>
 <p>Rayane</p>
-<p>Renata da SIlva Ferreira</p>
+<p>Renata da Silva Ferreira</p>
 <br>
 <br>
 <br>
