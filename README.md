@@ -7,9 +7,6 @@
 <br>
 <br>
 <br>
-<br>AUTOMAÇÃO HIDROPONIA
-<br>
-<br>
 <br>
 <p>Maria Luíza Teixeira Nascimento</p>
 <p>Rayane</p>
