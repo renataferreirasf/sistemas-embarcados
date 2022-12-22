@@ -3,11 +3,7 @@
 <h6>BACHARELADO EM ENGENHARIA DA COMPUTAÇÃO</h6>
 <h6>DISCIPLINA: SISTEMA EMBARCADOS</h6>
 <h6>DOCENTE: ALEXANDRE SALES VASCONCELOS</h6>
-<br>
-<br>
-<br>
-<br>
-<br>
+<h6>DISCENTES:
 <p>Maria Luíza Teixeira Nascimento</p>
 <p>Rayanne Kelly Marcelino Barros Elias</p>
 <p>Renata da Silva Ferreira</p>
