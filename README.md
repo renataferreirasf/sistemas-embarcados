@@ -4,9 +4,9 @@
 <h6>DISCIPLINA: SISTEMA EMBARCADOS</h6>
 <h6>DOCENTE: ALEXANDRE SALES VASCONCELOS</h6>
 <h6>DISCENTES:
-<p>Maria Luíza Teixeira Nascimento</p>
-<p>Rayanne Kelly Marcelino Barros Elias</p>
-<p>Renata da Silva Ferreira</p>
+<p>MARIA LUIZA TEIXEIRA NASCIMENTO</p>
+<p>RAYANE KELLY MARCELINO BARROS ELIAS</p>
+<p>RENATA DA SILVA FERREIRA</p>
 <br>
 <br>
 <br>
