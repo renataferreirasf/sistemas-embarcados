@@ -20,7 +20,7 @@ void app_main(void)
 	http_server_start();
 	// Start Wifi
 	wifi_app_start();
-
+	DHT11_init(GPIO_NUM_21);
 	while(1){
 		//Start DTH11 Sensor task
 		printf("A temperatura é %d \n", DHT11_read().temperature);
