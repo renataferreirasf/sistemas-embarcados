@@ -22,4 +22,3 @@ int _checkResponse();
 void DHT11_init();
 
 #endif
-/home/renata/Downloads/SistemasEmbarcados-master/Códigos/main/dht.h
