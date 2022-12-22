@@ -22,7 +22,7 @@
 <br>
 <br>
 <br>
-<p><b>DESENVOLVIMENTO DE SISTEMA DE AUTOMAÇÃO HIDROPONIA 3</b></p>
+<p><b>DESENVOLVIMENTO DE SISTEMA DE MONITORAÇÃO DE TERRÁRIO 3</b></p>
 <br>
 <br>
 <br>
