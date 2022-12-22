@@ -7,7 +7,7 @@
 <br>
 <br>
 <br>
-<br>
+<br>AUTOMAÇÃO HIDROPONIA
 <br>
 <br>
 <br>
@@ -22,7 +22,7 @@
 <br>
 <br>
 <br>
-<p><b>DESENVOLVIMENTO DE SISTEMA DE MONITORAÇÃO DE TERRÁRIO 3</b></p>
+<p><b>DESENVOLVIMENTO DE SISTEMA DE MONITORAÇÃO DE TERRÁRIO </b></p>
 <br>
 <br>
 <br>
