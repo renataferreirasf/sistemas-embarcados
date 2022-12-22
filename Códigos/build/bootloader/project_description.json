@@ -1,0 +1,21 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "C:/Espressif/python_env/esp-idf-v4.4.2/components/bootloader/subproject",
+    "build_dir":          "C:/Users/FELIPE/Desktop/projeto8/build/bootloader",
+    "config_file":        "C:/Users/FELIPE/Desktop/projeto8/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.4.2-dirty",
+    "target":             "esp32",
+    "rev":                "0",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "C:/Espressif/python_env/esp-idf-v4.4.2/components/efuse/Kconfig;C:/Espressif/python_env/esp-idf-v4.4.2/components/esp32/Kconfig;C:/Espressif/python_env/esp-idf-v4.4.2/components/esp_common/Kconfig;C:/Espressif/python_env/esp-idf-v4.4.2/components/esp_hw_support/Kconfig;C:/Espressif/python_env/esp-idf-v4.4.2/components/esp_system/Kconfig;C:/Espressif/python_env/esp-idf-v4.4.2/components/freertos/Kconfig;C:/Espressif/python_env/esp-idf-v4.4.2/components/hal/Kconfig;C:/Espressif/python_env/esp-idf-v4.4.2/components/log/Kconfig;C:/Espressif/python_env/esp-idf-v4.4.2/components/newlib/Kconfig;C:/Espressif/python_env/esp-idf-v4.4.2/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "C:/Espressif/python_env/esp-idf-v4.4.2/components/bootloader/Kconfig.projbuild;C:/Espressif/python_env/esp-idf-v4.4.2/components/esp_rom/Kconfig.projbuild;C:/Espressif/python_env/esp-idf-v4.4.2/components/esptool_py/Kconfig.projbuild;C:/Espressif/python_env/esp-idf-v4.4.2/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "C:/Espressif/python_env/esp-idf-v4.4.2/components/bootloader", "C:/Espressif/python_env/esp-idf-v4.4.2/components/bootloader_support", "C:/Espressif/python_env/esp-idf-v4.4.2/components/efuse", "C:/Espressif/python_env/esp-idf-v4.4.2/components/esp32", "C:/Espressif/python_env/esp-idf-v4.4.2/components/esp_common", "C:/Espressif/python_env/esp-idf-v4.4.2/components/esp_hw_support", "C:/Espressif/python_env/esp-idf-v4.4.2/components/esp_rom", "C:/Espressif/python_env/esp-idf-v4.4.2/components/esp_system", "C:/Espressif/python_env/esp-idf-v4.4.2/components/esptool_py", "C:/Espressif/python_env/esp-idf-v4.4.2/components/freertos", "C:/Espressif/python_env/esp-idf-v4.4.2/components/hal", "C:/Espressif/python_env/esp-idf-v4.4.2/components/log", "C:/Espressif/python_env/esp-idf-v4.4.2/components/bootloader/subproject/main", "C:/Espressif/python_env/esp-idf-v4.4.2/components/bootloader/subproject/components/micro-ecc", "C:/Espressif/python_env/esp-idf-v4.4.2/components/newlib", "C:/Espressif/python_env/esp-idf-v4.4.2/components/partition_table", "C:/Espressif/python_env/esp-idf-v4.4.2/components/soc", "C:/Espressif/python_env/esp-idf-v4.4.2/components/spi_flash", "C:/Espressif/python_env/esp-idf-v4.4.2/components/xtensa", "" ]
+}
