@@ -36,11 +36,8 @@ void app_main(void)
 		ret = nvs_flash_init();
 	}
 	ESP_ERROR_CHECK(ret);
-
-	http_server_start();
-
 	wifi_app_start();
-    vTaskDelay(2000 / portTICK_RATE_MS);
+    	vTaskDelay(2000 / portTICK_RATE_MS);
 	xTaskCreate(&DHT_reader_task, "DHT_reader_task", 2048, NULL, 5, NULL );
 		
 }
