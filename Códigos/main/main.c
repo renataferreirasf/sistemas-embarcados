@@ -6,9 +6,29 @@
 #include "dht.h"
 #include "wifi_app.h"
 
+
+
+void DHT_reader_task(void *pvParameter)
+{
+		setDHTgpio(GPIO_NUM_4);
+
+	while(1) {
+	
+		printf("Lendo Sensores do Terrario\n" );
+		int ret = readDHT();
+		
+		errorHandler(ret);
+
+		printf("Umidade %.2f %%\n", getHumidity());
+		printf("Temperatura %.2f ºC\n\n", getTemperature());
+		
+		vTaskDelay(2000 / portTICK_RATE_MS);
+	}
+}
+
 void app_main(void)
 {
-    // Initialize NVS
+
 	esp_err_t ret = nvs_flash_init();
 	if (ret == ESP_ERR_NVS_NO_FREE_PAGES || ret == ESP_ERR_NVS_NEW_VERSION_FOUND)
 	{
@@ -18,16 +38,9 @@ void app_main(void)
 	ESP_ERROR_CHECK(ret);
 
 	http_server_start();
-	// Start Wifi
-	wifi_app_start();
-	DHT11_init(GPIO_NUM_04);
-	while(1){
-		//Start DTH11 Sensor task
-		printf("A temperatura é %d \n", DHT11_read().temperature);
-		printf("A humidade é %d\n", DHT11_read().humidity);
-		printf("Status %d\n", DHT11_read().status);
-		waitSeconds(1);
-	}
-	
 
+	wifi_app_start();
+    vTaskDelay(2000 / portTICK_RATE_MS);
+	xTaskCreate(&DHT_reader_task, "DHT_reader_task", 2048, NULL, 5, NULL );
+		
 }
